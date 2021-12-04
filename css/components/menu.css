@@ -1,0 +1,45 @@
+#menu
+{
+
+display: flex;
+padding: 0px;
+list-style-type: none;
+justify-content: right;
+
+
+}
+
+#menu a{
+	margin: 0.5em;
+	color: #647485;
+	
+}
+
+
+#menu a:hover{
+	text-decoration: underline;
+	text-decoration-color: #04a4fb;
+}
+
+#menu .icon{
+	display: none;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+
+
+#menu a{
+	display: none;
+}
+
+}
+#menu .icon{
+	display: block;
+}
+
+
+
+
+}

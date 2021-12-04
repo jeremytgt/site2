@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> SITE </title>
+		<meta charset="utd-8">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+
+		<header id="menu" class="nav">			
+			<a href="index.html">Home</a>
+			<a href="apropos.html">A propos de nous</a>
+			<a href="">contact</a>
+			<a class="icon" onclick="myFunction()">&#9776</a> <!-- appel de la fonction myFunction lorsqu'on clic sur l'icon -->
+		</header>
+
+
+		<div class="banner">
+			<div class="container">
+				<h1>Titre</h1>
+				<h2>blablkabla</h2>
+				<a href="#" class="btn-blue">En savoir plus</a>
+			</div>
+			
+		</div>
+
+
+		<!-- petit code trouvé sur internet qui permet de changer la class du menu-->
+				<script>
+			function myFunction(){
+				var x = document.getElementById("menu");
+				if (x.className === "nav"){
+					x.className += " responsive";
+				}else{
+					x.className = "nav";
+				}
+			}
+		</script>
+
+
+
+
+	</body>
+
+
+
+
+
+
+</html>

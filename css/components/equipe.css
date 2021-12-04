@@ -1,0 +1,62 @@
+#equipe{
+
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+
+}
+
+.profil{
+
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: solid black 2px;
+weigth: 3em;
+border-radius: 15px;
+border-color: #04a4fb;
+
+}
+
+.profil img{
+	margin : 10px auto;
+	height: 5em;
+	width: 5em;
+	border-radius: 50%;
+
+}
+
+.profil h2{
+	margin: 10px auto;
+color: #04a4fb;
+font-size : 0.5em;
+
+}
+
+.profil h3{
+	margin: 10px auto;
+	color: #647485;
+	font-size: 1em;
+}
+
+.profil p{
+	margin: 10px 10px;
+	font-size: 0.5em;
+
+
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+
+#equipe {
+	flex-direction: column;
+}
+.profil{
+	margin: 20px;
+}
+
+
+}
